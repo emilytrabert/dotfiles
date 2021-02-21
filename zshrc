@@ -93,3 +93,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cdw="cd ~/workspace"
+
+# Ruby Bundle
+function rails_command() {
+	bundle exec rails $1 $2 $3 $4 $5 $6 $7
+}
+alias rs="rails_command server"
+alias rc="rails_command console"
+alias rg="rails_command generate"
+alias be="bundle exec"
