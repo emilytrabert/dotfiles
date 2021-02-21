@@ -1,5 +1,7 @@
 export PATH=/Users/emilytrabert/apache-maven-3.5.3/bin:/usr/local/texlive/2017/bin/x86_64-darwin/:$PATH
 
+export GEM_HOME="$HOME/.gem"
+
 export EDITOR=nano
 
 export ZSH=/Users/emilytrabert/.oh-my-zsh
