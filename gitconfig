@@ -1,0 +1,7 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Emily Trabert
+	email = hello@emilytrabert.com
+[core]
+	excludesfile = /Users/emilytrabert/.gitignore_global
