@@ -6,3 +6,9 @@ Dotfiles backup
 * gitconfig > ~/.gitconfig
 * gitignore_global > ~/.gitignore_global
 * zshrc > ~/.zshrc
+
+## Symlinks
+
+```bash
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+```
