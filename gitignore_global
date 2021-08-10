@@ -1,1 +1,4 @@
 .DS_Store
+
+# Ruby bundle
+vendor/bundle/*

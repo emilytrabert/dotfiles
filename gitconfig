@@ -5,3 +5,5 @@
 	email = hello@emilytrabert.com
 [core]
 	excludesfile = /Users/emilytrabert/.gitignore_global
+[pull]
+	ff = only
