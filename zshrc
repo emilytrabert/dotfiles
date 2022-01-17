@@ -1,9 +1,12 @@
+export PATH=/Users/emilytrabert/apache-maven-3.5.3/bin:/usr/local/texlive/2017/bin/x86_64-darwin/:$PATH
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export EDITOR=nano
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/emilytrabert/.oh-my-zsh"
+ZSH_THEME="emilytrabert"
 
 export GEM_HOME="$HOME/.gem"
 
@@ -146,5 +149,7 @@ export ORACLE_SID=asdb
 export TNS_ADMIN=$ORACLE_HOME/network/admin
 export NLS_LANG=English_America.UTF8
 export PATH=$PATH:$ORACLE_HOME
+
+. $HOME/.asdf/asdf.sh
 
 . /usr/local/opt/asdf/asdf.sh
