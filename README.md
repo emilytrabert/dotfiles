@@ -9,11 +9,12 @@ Dotfiles backup
 
 ## Basic setup
 
-1. Install [iTerm](https://iterm2.com/)
+1. Install [iTerm2](https://iterm2.com/)
 2. Install [homebrew](https://brew.sh/)
-3. Install zsh
+3. Install zsh/oh-my-zsh
 ```bash
 brew install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 ## Symlinks
