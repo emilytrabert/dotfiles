@@ -17,6 +17,7 @@ brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 4. Show hidden files: `Cmd+Shift+`
+5. Install [Sublime Text](https://www.sublimetext.com/download)
 
 ## Symlinks
 
