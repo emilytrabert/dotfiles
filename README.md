@@ -7,6 +7,15 @@ Dotfiles backup
 * gitignore_global > ~/.gitignore_global
 * zshrc > ~/.zshrc
 
+## Basic setup
+
+1. Install [iTerm](https://iterm2.com/)
+2. Install [homebrew](https://brew.sh/)
+3. Install zsh
+```bash
+brew install zsh
+```
+
 ## Symlinks
 
 ```bash
