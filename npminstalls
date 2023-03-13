@@ -1,6 +1,7 @@
-/opt/homebrew/lib
+/Users/etrabert/.nvm/versions/node/v18.15.0/lib
 ├── @angular/cli@15.2.2
 ├── aws-cdk@2.68.0
+├── corepack@0.15.3
 ├── npm@9.5.0
 └── typescript@4.9.5
 
