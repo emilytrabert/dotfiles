@@ -5,7 +5,7 @@ Dotfiles backup
 * emilytrabert.zsh-theme > ~/.oh-my-zsh/themes/emilytrabert.zsh-theme
 * gitconfig > ~/.gitconfig
 * gitignore_global > ~/.gitignore_global
-* npm > `npm ls -g --depth 0`
+* npminstalls > `npm ls -g --depth 0 >> npminstalls`
 * zshrc > ~/.zshrc
 
 ## Basic setup
