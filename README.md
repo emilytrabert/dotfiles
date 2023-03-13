@@ -5,6 +5,7 @@ Dotfiles backup
 * emilytrabert.zsh-theme > ~/.oh-my-zsh/themes/emilytrabert.zsh-theme
 * gitconfig > ~/.gitconfig
 * gitignore_global > ~/.gitignore_global
+* npm > `npm ls -g --depth 0`
 * zshrc > ~/.zshrc
 
 ## Basic setup
@@ -18,7 +19,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ```
 4. Show hidden files: `Cmd+Shift+`
 5. Install [Sublime Text](https://www.sublimetext.com/download)
-6. Install [Package Control](https://packagecontrol.io/installation)
+6. Install [Package Control](https://packagecontrol.io/installation) for Sublime Text
 
 ## Symlinks
 
