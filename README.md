@@ -21,9 +21,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 5. Install [Sublime Text](https://www.sublimetext.com/download)
 6. Install [Package Control](https://packagecontrol.io/installation) for Sublime Text
 7. Install [nvm](https://github.com/nvm-sh/nvm)
+7. Install [VSCode](https://code.visualstudio.com/Download)
+
 
 ## Symlinks
 
 ```bash
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+ln -s "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" /usr/local/bin/code
 ```
