@@ -150,6 +150,17 @@ export TNS_ADMIN=$ORACLE_HOME/network/admin
 export NLS_LANG=English_America.UTF8
 export PATH=$PATH:$ORACLE_HOME
 
+# Cisco AnyConnect
+# Setup with security add-generic-password -T "[password]" -a "EDCVPN LabCorp" -s trabere
+function cisco_connect() {
+	CON_STR="connect \"EDCVPN LabCorp\"\ntrabere\n$(/usr/bin/security find-generic-password -w -a "EDCVPN LabCorp" -s trabere)\n2\ny\nexit"
+	echo $CON_STR
+	printf $CON_STR | /opt/cisco/anyconnect/bin/vpn -s
+}
+alias cisco="cisco_connect"
+alias nocisco='/opt/cisco/anyconnect/bin/vpn disconnect'
+
+
 . $HOME/.asdf/asdf.sh
 
 . /usr/local/opt/asdf/asdf.sh
