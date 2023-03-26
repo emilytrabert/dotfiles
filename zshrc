@@ -83,7 +83,7 @@ fi
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git ng)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -150,11 +150,15 @@ export TNS_ADMIN=$ORACLE_HOME/network/admin
 export NLS_LANG=English_America.UTF8
 export PATH=$PATH:$ORACLE_HOME
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 # Cisco AnyConnect
 # Setup with security add-generic-password -T "[password]" -a "EDCVPN LabCorp" -s trabere
 function cisco_connect() {
 	CON_STR="connect \"EDCVPN LabCorp\"\ntrabere\n$(/usr/bin/security find-generic-password -w -a "EDCVPN LabCorp" -s trabere)\n2\ny\nexit"
-	echo $CON_STR
+	# echo $CON_STR
 	printf $CON_STR | /opt/cisco/anyconnect/bin/vpn -s
 }
 alias cisco="cisco_connect"
